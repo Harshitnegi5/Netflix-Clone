@@ -10,7 +10,7 @@
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 1; 
+  z-index: 1;
   color: #fff;
   font-size: 14px;
 
@@ -40,21 +40,20 @@
     align-items: center;
     gap: 20px;
 
-    > img{
-        width: 20px;
+    > img {
+      width: 20px;
     }
 
-    .profile{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        cursor: pointer;
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
 
-        img:nth-child(1){
-            border-radius: 4px;
-            width: 35px;
-
-        }
+      img:nth-child(1) {
+        border-radius: 4px;
+        width: 35px;
+      }
     }
   }
 }
