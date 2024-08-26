@@ -1,0 +1,13 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+}
