@@ -77,3 +77,15 @@
     }
   }
 }
+
+.form-switch{
+  margin-top: 40px;
+  color:#737373 ;
+
+  span{
+    margin-left: 6px;
+    color: #fff;
+    font-weight: 700;
+    cursor:pointer ;
+  }
+}
