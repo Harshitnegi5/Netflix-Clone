@@ -3,11 +3,9 @@ import "./login.css";
 import logo from "../../assets/logo.png";
 
 const Login = () => {
-
   const btnHandler = (e) => {
     e.preventDefault();
-     
-  }
+  };
   return (
     <div className="login">
       <img src={logo} className="login-logo" alt="" />
