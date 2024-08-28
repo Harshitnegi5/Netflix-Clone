@@ -5,9 +5,9 @@ import Navbar from '../Navbar/Navbar'
 
 const Home = () => {
   return (
-    <div>
-      <Navbar/>
     <div className='home'>
+      <Navbar/>
+    <div className='hero'>
       <img src={hero_banner} alt="" />
     </div>
 
