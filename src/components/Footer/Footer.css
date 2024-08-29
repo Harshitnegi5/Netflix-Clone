@@ -1,0 +1,29 @@
+.footer {
+  padding: 30px 4%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #696565;
+
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  p{
+    color: gray;
+    font-size: 14px;
+  }
+
+  .footer-icons {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+
+    img {
+      width: 30px;
+      cursor: pointer;
+    }
+  }
+}
