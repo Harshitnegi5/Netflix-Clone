@@ -1,0 +1,42 @@
+.title-cards{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* background-color: red; */
+
+    h2{
+        margin-bottom: 8px;
+    }
+
+    .card-list{
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        .cards{
+            position: relative;
+          
+
+            p{
+                position: absolute;
+                bottom: 5px;
+                left: 5px;
+                
+            }
+
+       
+
+             img{
+                width: 240px;
+                border-radius: 4px;
+                cursor: pointer;
+                object-fit: cover;
+            }
+        }
+
+    }
+
+}

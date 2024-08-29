@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ludo</title>
+</head>
+
+<body>
+    <div class="w-screen h-screen flex justify-center items-center">
+        <div class="play-area w-[900px] h-[900px] flex flex-col items-center justify-between">
+            <div class="upper-play-area w-full h-1/3 flex justify-between">
+                <div class="playerarea playerarea1 bg-green-400 rounded-tl-lg">
+                    <div class="coin-container">
+                        <div class="greencoin coin bg-green-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="greencoin coin bg-green-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="greencoin coin bg-green-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="greencoin coin bg-green-500"></div>
+                    </div>
+
+
+                </div>
+                <div class="coin-path vertical-path-1 w-1/3 flex flex-wrap">
+
+                </div>
+                <div class="playerarea playerarea2 bg-blue-400 rounded-tr-lg">
+                    <div class="coin-container">
+                        <div class="bluecoin coin bg-blue-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="bluecoin coin bg-blue-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="bluecoin coin bg-blue-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="bluecoin coin bg-blue-500"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-play-area w-full h-1/3 flex justify-between">
+                <div class="coin-path horizontal-path-1 w-1/3 flex flex-wrap">
+
+                </div>
+                <div class="w-1/3 flex flex-wrap flex-col items-center justify-evenly bg-black" id="path-box-win">
+                    <div class="font-mono text-5xl neonText text-center" id="dice-number">404 <br>Ludo</div>
+                    <button class="bg-white px-3 py-1 rounded-lg font-bold" id="dice-roll-btn">Roll</button>
+                </div>
+                <div class="coin-path horizontal-path-2 w-1/3 flex flex-wrap">
+
+                </div>
+            </div>
+            <div class="lower-play-area w-full h-1/3 flex justify-between">
+                <div class="playerarea playerarea3 bg-red-400 rounded-bl-lg">
+                    <div class="coin-container">
+                        <div class="redcoin coin bg-red-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="redcoin coin bg-red-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="redcoin coin bg-red-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="redcoin coin bg-red-500"></div>
+                    </div>
+                </div>
+                <div class="coin-path vertical-path-2 w-1/3 flex flex-wrap">
+
+                </div>
+                <div class="playerarea playerarea4 bg-yellow-400 rounded-br-lg">
+                    <div class="coin-container">
+                        <div class="yellowcoin coin bg-yellow-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="yellowcoin coin bg-yellow-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="yellowcoin coin bg-yellow-500"></div>
+                    </div>
+                    <div class="coin-container">
+                        <div class="yellowcoin coin bg-yellow-500"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script  src="/script.js"></script>
+</body>
+
+</html>
